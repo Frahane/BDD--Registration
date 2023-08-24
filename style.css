@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  background-color: #FF1FFF;
+}
+
+h1 {
+  margin-top: 20%;
+  text-align: center;
+  color: dark;
+  font-size: 70%;
+  margin-bottom: 10%;
+  background-color: white;
+  padding: 1.2%;
+  border-radius: 3px;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+
+.container {
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 4px auto;
+  max-width: 98%;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  background-color: purple;
+  padding: 1.4%;
+  border-radius: 70%;
+}
+
+.form-control {
+  display: flex;
+  padding: 2%;
+  border: 2px solid lightblue;
+  outline-color: seagreen;
+  border-radius: 3px;
+}
+.btn {
+  background-color: purple;
+  border: none;
+  padding: 2% 6%;
+  border-radius: 2px;
+  color: #fff;
+}
+
+.btn-primary:active {
+  background-color: lightcoral;
+  color: white;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.btn {
+  margin-top: 10px;
+}
+.success-message {
+  color: green;
+  font-size: 60%;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10%;
+  
+}
